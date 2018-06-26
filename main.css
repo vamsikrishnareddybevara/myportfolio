@@ -24,6 +24,11 @@ ul {
   padding: 0;
   margin: 0;
 }
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #nav__bar{
   text-decoration:none;
@@ -35,7 +40,7 @@ ul{
 }
 .typewrite-wrapper {
   height: 50px; 
-}
+}0
 
 /* ---- particles.js container ---- */ 
 #particles-js{ 
@@ -82,7 +87,7 @@ ul{
 
 /* NAV BAR*/
 .nav {
-  width: 80%;
+  width: 100%;
   text-align:center; 
   position: absolute;
   z-index:100;
@@ -109,63 +114,95 @@ nav a{
 	color: #FFF;
 	text-shadow: #FFF 0 0 10px;
 }
-.home{
+#home{
   position:relative;
   text-align: center;
   padding-top:130px;
   width:100%;
+  height:100%;
 }
 .pic{
   border:none;
   height:180px;
   width:240px;
   transform:          rotate(90deg);
--ms-transform:      rotate(90deg);
--moz-transform:     rotate(90deg);
--webkit-transform:  rotate(90deg);
--o-transform:       rotate(90deg);
-border-radius: 2000px;
-margin-bottom: 50px;
+  -ms-transform:      rotate(90deg);
+  -moz-transform:     rotate(90deg);
+  -webkit-transform:  rotate(90deg);
+  -o-transform:       rotate(90deg);
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-top:100px;
 }
-.about-me{
-  width: 80%;
+hr { 
+    display: block;
+    margin-top:80px;
+    margin-bottom: 0.5em;
+    margin-right:100px;
+    margin-left:100px;
+    border-style: inset;
+    border-width: 1.5px;
+}
+#about-me{
+  width: 100%;
   /* background-color:#000; */
   text-align: center;
   position: absolute;
-  z-index: 10;
+  padding:150px;
+
   display: inline-block;
-  padding-left:50px;
   font-size: 1.2em;
   font-family: 'Ubuntu', sans-serif;
 }
-.about-me-heading{
+.about-heading{
   font-size: 1.6em;
   text-align:center;
 }
-.projects{
-  /* background-color:#000; */
+
+#projects{
   width:100%;
+  height:500px;
+  padding-top:00px;
+
+  font-family: 'Ubuntu', sans-serif;
 }
+.project-heading{
+  font-size: 2em;
+  text-align:center;
+ 
+}
+
 .grid-container {
   display: grid;
-  width:100%;
-  padding: 150px;
+  width:50vw;
+ 
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto auto;
+  align-items: center;
 }
 .grid-container>div {
-
-  text-align: center;
-  padding:20px 0;
+  text-align: center;  
   font-size: 30px;
 }
+
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+    position:relative;
+    
+    border: 2px solid #777;
+    margin-right:50px;
+    margin-bottom:80px;
     width: 200px;
+    height:300px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid #ccc;
+    color:#000;
 }
 
 div.gallery img {
@@ -179,6 +216,7 @@ div.desc {
     /* color:#000; */
     font-family: 'Ubuntu', sans-serif;
 }
+
 
 
 
