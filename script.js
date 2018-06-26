@@ -52,10 +52,8 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { text-shadow: #FFF 0 0 5px;}";
-        css.innerHTML = ".typewrite > .wrap {font-family: 'Orbitron', sans-serif;}";
+        css.innerHTML = ".typewrite > .wrap { font-family: 'Open Sans', sans-serif;}";
         document.body.appendChild(css);
-
 
     };
 
