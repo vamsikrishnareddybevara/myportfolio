@@ -48,6 +48,9 @@
     text-align: left;
     color: #000;
   }
+  .item-1{
+  	margin-left: 0px;
+  }
    .header__menu {
     display: inline-block;
     position: absolute;
