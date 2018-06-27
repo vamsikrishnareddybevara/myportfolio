@@ -2,6 +2,9 @@
 	display:flex;
 	flex-wrap: wrap;
 }
+.header__menu {
+  display: none;
+}
 
 @media screen and (max-width: 750px){
 	.item{
@@ -14,4 +17,45 @@
 	.about-heading{
 		font-size: 1.4em;
 	}
+}
+@media screen and (max-width:550px){
+	#about-me{
+		font-size: 0.8em;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width:550px){
+	  .nav {
+    z-index: 100;
+    background-color: #fff;
+    width: 300px;
+    position:absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.5s ease;
+  }
+  .nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+    color: #000;
+  }
+   .header__menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+  .header__menu svg {
+    width: 30px;
+    fill: #E0E0E0;
+  }
 }

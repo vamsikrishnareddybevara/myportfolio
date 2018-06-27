@@ -33,15 +33,15 @@ main {
 
 }
 .header{
+  width: 100%;
   height:50px;
 }
 .header-inner{
-  width: 100%;
   font-size: 1.4em;
   font-family: 'Spirax', cursive;
   position: relative;
 }
-.header-heading{
+section h1{
   text-align: center;
 }
 
@@ -121,10 +121,10 @@ nav a{
 
 hr{ 
     display: block;
-    margin-top:80px;
+    margin-top: 80px;
     margin-bottom: 0.5em;
-    margin-right:100px;
-    margin-left:100px;
+    margin-right: 10vw;
+    margin-left: 10vw;
     border-style: inset;
     border-width: 1.5px;
  }
