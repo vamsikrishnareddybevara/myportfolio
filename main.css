@@ -154,11 +154,12 @@ font-family: 'IBM Plex Sans', sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  justify-content: space-around;
+  
 }
 .flex-container>div {
   text-align: center;  
   font-size: 30px;
+  justify-content: space-around;
 }
 
 div.gallery {
