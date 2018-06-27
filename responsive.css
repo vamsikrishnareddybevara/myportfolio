@@ -51,14 +51,15 @@
   .item-1{
   	margin-left: 0px;
   }
-   .header__menu {
+   .nav__menu {
     display: inline-block;
     position: absolute;
     right: 0;
     padding: 1em;
   }
-  .header__menu svg {
-    width: 30px;
+  .nav__menu svg {
+    width: 48px;
+    height: 48px;
     fill: #E0E0E0;
   }
 }
