@@ -38,7 +38,7 @@ main {
 }
 .header-inner{
   font-size: 1.4em;
-  font-family: 'Spirax', cursive;
+  font-family: 'Cabin Sketch', cursive;
   position: relative;
 }
 section h1{
@@ -204,6 +204,7 @@ div.gallery img {
 
 div.desc {
     padding: 15px;
+    margin-top: 20px;
     text-align: center;
     /* color:#000; */
     font-family: 'Montserrat', sans-serif;

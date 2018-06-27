@@ -28,7 +28,7 @@
 @media screen and (max-width:550px){
 	  .nav {
     z-index: 100;
-    background-color: #fff;
+    background-color: #000;
     width: 300px;
     position:absolute;
     /* This trasform moves the drawer off canvas. */
