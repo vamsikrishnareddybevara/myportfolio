@@ -2,3 +2,16 @@
 	display:flex;
 	flex-wrap: wrap;
 }
+
+@media screen and (max-width: 750px){
+	.item{
+		font-size: 1em;
+		margin-right: 40px;
+	}
+	#about-me{
+		font-size: 1em;
+	}
+	.about-heading{
+		font-size: 1.4em;
+	}
+}
