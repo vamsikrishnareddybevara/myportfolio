@@ -124,10 +124,9 @@ nav a{
 /* About Me section */
 #about-me{
   width: 100%;
-  /* background-color:#000; */
-  padding-left:100px;
+  padding-left: 100px;
   padding-right: 100px;
-  padding-top:50px;
+  padding-top: 80px;
   position: relative;
   display: inline-block;
   text-align: justify;
@@ -138,7 +137,7 @@ nav a{
 }
 
 .about-me{
-  padding-top:50px;
+  padding-top:50px; 
 }
 
 .about-heading{
