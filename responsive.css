@@ -1,5 +1,5 @@
 	.content{
-		display:flex;
+		display: flex;
 		flex-wrap: wrap;
 }
 	.nav__menu {
@@ -29,7 +29,7 @@
 	.nav {
     	z-index: 100;
 		background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, #2781a1);    	width: 200px;
-    	position:absolute;
+    	position: absolute;
     	/* This trasform moves the drawer off canvas. */
     	-webkit-transform: translate(-300px, 0px);
     	transform: translate(-300px, 0px);

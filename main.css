@@ -6,7 +6,7 @@ body, html {
 }
 
 * { 
-	color:#fff;
+	color: #fff;
  	text-decoration: none;
   scroll-behavior: smooth;
 }
@@ -42,7 +42,7 @@ hr{
 /* Header */
 .header{
   width: 100%;
-  height:50px;
+  height: 50px;
 }
 .header-inner{
   font-size: 1.4em;
@@ -62,23 +62,23 @@ hr{
 #particles-js{
   width: 100%; 
   height:100%; 
-  position:fixed; 
-  z-index:-1;
+  position: fixed; 
+  z-index: -1;
   background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #000529); 
 } 
 
 /* NAV BAR*/
 .nav {
   width: 100%;
-  text-align:center; 
+  text-align: center; 
   position: relative;
   z-index: 1;
-  padding-left:20px;
+  padding-left: 20px;
 }
 
 #nav__bar{
-  text-decoration:none;
-  color:#fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 nav a{
@@ -110,7 +110,7 @@ nav a{
 .pic{
   border:none;
   height:180px;
-  width:240px;
+  width: 240px;
   transform:          rotate(270deg);
   -ms-transform:      rotate(270deg);
   -moz-transform:     rotate(270deg);
@@ -118,7 +118,7 @@ nav a{
   -o-transform:       rotate(270deg);
   border-radius: 12px;
   margin-bottom: 50px;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 /* About Me section */
@@ -137,7 +137,7 @@ nav a{
 }
 
 .about-me{
-  padding-top:50px; 
+  padding-top: 50px; 
 }
 
 .about-heading{
@@ -149,14 +149,14 @@ nav a{
 
 /* Projects Section */
 #projects{
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
 .project-heading{
   font-size: 40px;
-  text-align:center;
+  text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
   text-shadow: #FFF 0 0 5px;
@@ -177,10 +177,10 @@ nav a{
 }
 
 div.gallery {
-    position:relative;   
+    position: relative;   
     border: 2px solid #777;
     width: 200px;
-    height:300px;
+    height: 300px;
     border-radius: 5px;
     text-shadow: #FFF 0 0 5px;
     font-family: 'Montserrat', sans-serif;
@@ -191,7 +191,7 @@ div.gallery {
 
 div.gallery:hover {
     border: 2px solid #ccc;
-    color:#000;
+    color: #000;
 }
 
 div.gallery img {
@@ -203,18 +203,17 @@ div.desc {
     padding: 15px;
     margin-top: 20px;
     text-align: center;
-    /* color:#000; */
     font-family: 'Montserrat', sans-serif;
 }
 
 /* GET IN TOUCH  Section*/
 #get-in-touch{
-  width:100%;
+  width: 100%;
   font-size: 2em;
   font-family: 'Montserrat', sans-serif; 
   margin-left: auto;
   margin-right: auto;
-  padding-top:30px;
+  padding-top: 30px;
 }
 
 .get-in-touch{
