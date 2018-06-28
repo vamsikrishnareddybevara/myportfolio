@@ -4,13 +4,13 @@ body, html {
   width: 100%;
   height: 100%;
 }
+
 * { 
 	color:#fff;
  	text-decoration: none;
-}
-*{
   scroll-behavior: smooth;
 }
+
 h1 , h3{
   margin: 0; 
 }
@@ -24,9 +24,22 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 main {
   width: 100%;
 }
+
+hr{ 
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 0.5em;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    border-style: inset;
+    border-width: 1.5px;
+ }
+
+/* Header */
 .header{
   width: 100%;
   height:50px;
@@ -39,27 +52,19 @@ main {
   text-align: center;
 }
 
-#nav__bar{
-  text-decoration:none;
-  color:#fff;
-}
 
-ul{
-  list-style:none;
-  color:#fff;
-}
-
+/* type writer effect */
 .typewrite-wrapper {
   height: 50px; 
 }
 
 /* ---- particles.js container ---- */ 
-#particles-js{ 
+#particles-js{
+  width: 100%; 
+  height:100%; 
   position:fixed; 
   z-index:-1;
-  width: 100%; 
-  height:100%;
-background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #000529); 
+  background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #000529); 
 } 
 
 /* NAV BAR*/
@@ -71,9 +76,15 @@ background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #0
   padding-left:20px;
 }
 
-.item-1{
-  margin-left:10px;
-  font-family: 'Montserrat', sans-serif;
+#nav__bar{
+  text-decoration:none;
+  color:#fff;
+}
+
+nav a{
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: #FFF 0 0 10px;
 }
 
 .item {
@@ -87,12 +98,7 @@ background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #0
   font-family: 'Montserrat', sans-serif;
 }
 
-nav a{
-	text-decoration: none;
-	color: #FFF;
-	text-shadow: #FFF 0 0 10px;
-}
-
+/* Home Section */
 #home{
   width: 100%;
   height: auto;
@@ -115,16 +121,7 @@ nav a{
   margin-top:30px;
 }
 
-hr{ 
-    display: block;
-    margin-top: 80px;
-    margin-bottom: 0.5em;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    border-style: inset;
-    border-width: 1.5px;
- }
-
+/* About Me section */
 #about-me{
   width: 100%;
   /* background-color:#000; */
@@ -151,6 +148,7 @@ hr{
   text-shadow: #FFF 0 0 5px;
 }
 
+/* Projects Section */
 #projects{
   width:100%;
   height:auto;
@@ -210,7 +208,7 @@ div.desc {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* GET IN TOUCH */
+/* GET IN TOUCH  Section*/
 #get-in-touch{
   width:100%;
   font-size: 2em;
@@ -221,14 +219,14 @@ div.desc {
 }
 
 .get-in-touch{
-  text-align: center;
   height: 100px;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .social {
-  position: relative;
   width: 100%;
+  position: relative;
   text-align: center;
   padding-top: 100px;
   transform: translateY(-50%);
@@ -284,6 +282,7 @@ div.desc {
   color: white;
   text-shadow: #FFF 0 0 3px;
 }
+/* Footer Section */
 #footer{
   width: 100%;
   text-align: center;

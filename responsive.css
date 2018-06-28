@@ -1,9 +1,9 @@
-.content{
-	display:flex;
-	flex-wrap: wrap;
+	.content{
+		display:flex;
+		flex-wrap: wrap;
 }
-.nav__menu {
-  display: none;
+	.nav__menu {
+  		display: none;
 }
 
 @media screen and (max-width: 750px){
@@ -69,9 +69,9 @@
     	fill: #E0E0E0;
     	float: right;
 }
-.svg{
-	position: absolute;
-	margin-right: 10px;
+	.svg{
+		position: absolute;
+		margin-right: 10px;
 }
 
 @media screen and (max-width: 470px){
