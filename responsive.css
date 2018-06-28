@@ -49,9 +49,9 @@
     	text-align: center;
     	color: #000;
   }
-  .item-4{
-  	border-bottom: none;
-  	margin-bottom: 5px;
+  	.item-4{
+  		border-bottom: none;
+  		margin-bottom: 5px;
   }
 
    	.nav__menu {
