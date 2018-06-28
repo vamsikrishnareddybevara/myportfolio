@@ -11,8 +11,8 @@
 		font-size: 1em;
 		margin-right: 40px;
 	}
-	#about-me{
-		font-size: 1em;
+	.about-me{
+		font-size: 1.1em;
 	}
 	.about-heading{
 		font-size: 30px;
@@ -31,8 +31,7 @@
 @media screen and (max-width: 550px){
 	.nav {
     	z-index: 10;
-    	background-image: linear-gradient(to right, #181d25, #233343, #2b4b62, #2d6582, #2781a1);
-    	width: 200px;
+background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, #2781a1);    	width: 200px;
     	position:absolute;
     	/* This trasform moves the drawer off canvas. */
     	-webkit-transform: translate(-300px, 0px);
@@ -41,8 +40,8 @@
     	transition: transform 0.5s ease;
  	 }
     .nav.open {
-    	-webkit-transform: translate(80px, 20px);
-    	transform: translate(80px, 20px);
+    	-webkit-transform: translate(20vw, 20px);
+    	transform: translate(20vw, 20px);
   	}
   	.item {
    		display: list-item;
