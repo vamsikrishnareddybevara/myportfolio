@@ -59,7 +59,7 @@ ul{
   z-index:-1;
   width: 100%; 
   height:100%;
-  background-color: #00174f; 
+background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #000529); 
 } 
 
 /* NAV BAR*/
