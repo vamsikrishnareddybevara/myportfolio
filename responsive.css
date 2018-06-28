@@ -15,7 +15,10 @@
 		font-size: 1em;
 	}
 	.about-heading{
-		font-size: 1.4em;
+		font-size: 30px;
+	}
+	.project-heading{
+		font-size: 30px;
 	}
 }
 @media screen and (max-width:550px){
@@ -28,8 +31,8 @@
 @media screen and (max-width: 550px){
 	.nav {
     	z-index: 10;
-    	background-color: transparent;
-    	width: 300px;
+    	background-image: linear-gradient(to right, #181d25, #233343, #2b4b62, #2d6582, #2781a1);
+    	width: 200px;
     	position:absolute;
     	/* This trasform moves the drawer off canvas. */
     	-webkit-transform: translate(-300px, 0px);
@@ -38,8 +41,8 @@
     	transition: transform 0.5s ease;
  	 }
     .nav.open {
-    	-webkit-transform: translate(0, 0);
-    	transform: translate(0, 0);
+    	-webkit-transform: translate(80px, 20px);
+    	transform: translate(80px, 20px);
   	}
   	.item {
    		display: list-item;
@@ -57,15 +60,18 @@
 		padding-bottom: 1em;
     	padding-right: 0em;
     	padding-left: 1em;
+    	padding-top: 0em;
+    	height: 7px;
   }
   	.nav__menu svg {
     	width: 48px;
-    	height: 30px;
+    	height: 40px;
     	fill: #E0E0E0;
+    	float: right;
 }
 .svg{
 	position: absolute;
-	margin-top: 0px;
+	margin-right: 10px;
 }
 
 @media screen and (max-width: 470px){

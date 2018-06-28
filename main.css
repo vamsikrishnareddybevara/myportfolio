@@ -73,6 +73,7 @@ ul{
 
 .item-1{
   margin-left:10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .item {
@@ -83,6 +84,7 @@ ul{
   padding-top: 20px;
   font-weight: 500;
   font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav a{
@@ -143,8 +145,10 @@ hr{
 }
 
 .about-heading{
-  font-size: 1.6em;
+  font-size: 40px;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-shadow: #FFF 0 0 5px;
 }
 
 #projects{
@@ -154,10 +158,11 @@ hr{
 }
 
 .project-heading{
-  font-size: 2em;
+  font-size: 40px;
   text-align:center;
   padding-bottom: 50px;
   padding-top: 50px;
+  text-shadow: #FFF 0 0 5px;
 }
 
 .flex-container {
@@ -180,6 +185,7 @@ div.gallery {
     width: 200px;
     height:300px;
     border-radius: 5px;
+    text-shadow: #FFF 0 0 5px;
     font-family: 'Montserrat', sans-serif;
     -webkit-box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
