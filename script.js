@@ -52,7 +52,7 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { font-family: 'Open Sans', sans-serif;}";
+        css.innerHTML = ".typewrite > .wrap { font-family: 'Montserrat', sans-serif;}";
         document.body.appendChild(css);
 
     };
