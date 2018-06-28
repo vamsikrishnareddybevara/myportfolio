@@ -21,25 +21,27 @@
 @media screen and (max-width:550px){
 	#about-me{
 		font-size: 15px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 @media screen and (max-width: 550px){
 	.nav {
     	z-index: 100;
-background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, #2781a1);    	width: 200px;
+		background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, #2781a1);    	width: 200px;
     	position:absolute;
     	/* This trasform moves the drawer off canvas. */
     	-webkit-transform: translate(-300px, 0px);
     	transform: translate(-300px, 0px);
     	/* Optionally, we animate the drawer. */
     	transition: transform 0.5s ease;
+    	border-radius: 5px;
  	 }
     .nav.open {
-    	-webkit-transform: translate(20vw, 40px);
-    	transform: translate(20vw, 40px);
+    	-webkit-transform: translate(20vw, 50px);
+    	transform: translate(20vw, 50px);
   	}
+
   	.item {
    		display: list-item;
    	 	border-bottom: 1px solid #E0E0E0;
@@ -47,9 +49,11 @@ background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, 
     	text-align: center;
     	color: #000;
   }
-  	.item-1{
-  		margin-left: 0px;
+  .item-4{
+  	border-bottom: none;
+  	margin-bottom: 5px;
   }
+
    	.nav__menu {
     	display: inline-block;
     	position: relative;
