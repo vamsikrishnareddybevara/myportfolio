@@ -1,9 +1,9 @@
-	.content{
-		display: flex;
-		flex-wrap: wrap;
+.content{
+	display: flex;
+	flex-wrap: wrap;
 }
-	.nav__menu {
-  		display: none;
+.nav__menu {
+  	display: none;
 }
 
 @media screen and (max-width: 750px){
@@ -30,13 +30,11 @@
     	z-index: 100;
 		background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, #2781a1);    	width: 200px;
     	position: absolute;
-    	/* This trasform moves the drawer off canvas. */
     	-webkit-transform: translate(-300px, 0px);
     	transform: translate(-300px, 0px);
-    	/* Optionally, we animate the drawer. */
     	transition: transform 0.5s ease;
     	border-radius: 5px;
- 	 }
+ 	}
     .nav.open {
     	-webkit-transform: translate(20vw, 50px);
     	transform: translate(20vw, 50px);
@@ -48,11 +46,11 @@
    	 	width: 80%;
     	text-align: center;
     	color: #000;
-  }
+    }
   	.item-4{
   		border-bottom: none;
   		margin-bottom: 5px;
-  }
+    }
 
    	.nav__menu {
     	display: inline-block;
@@ -62,16 +60,17 @@
     	padding-left: 1em;
     	padding-top: 0em;
     	height: 7px;
-  }
+    }
   	.nav__menu svg {
     	width: 48px;
     	height: 40px;
     	fill: #E0E0E0;
     	float: right;
-}
+    }
 	.svg{
 		position: absolute;
 		margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 470px){
@@ -84,4 +83,5 @@
 		padding-top: 20px;
 		font-size: 0.9em;
 	}	
+
 }
