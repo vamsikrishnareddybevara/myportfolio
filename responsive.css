@@ -6,10 +6,13 @@
   	display: none;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 785px){
 	.item{
 		font-size: 1em;
 		margin-right: 40px;
+	}
+	.header-inner{
+		font-size: 1.3em;
 	}
 	.about-heading{
 		font-size: 30px;
@@ -18,14 +21,28 @@
 		font-size: 30px;
 	}
 }
-@media screen and (max-width:550px){
+@media screen and (max-width: 650px){
+	.item{
+		font-size: 0.9em;
+	}
+    .header-inner{
+		font-size: 1em;
+
+	}
+	.logo{
+		height:35px;
+		width: 45px;
+	}
+}
+@media screen and (max-width: 595px){
 	#about-me{
 		font-size: 15px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-}
-@media screen and (max-width: 550px){
+	header h2{
+		padding-left: 70px;
+	}
 	.nav {
     	z-index: 100;
 		background-image: linear-gradient(to right, #133567, #0c4878, #0a5b87, #156e95, #2781a1);    	width: 200px;
@@ -36,8 +53,8 @@
     	border-radius: 5px;
  	}
     .nav.open {
-    	-webkit-transform: translate(20vw, 50px);
-    	transform: translate(20vw, 50px);
+    	-webkit-transform: translate(0, 0);
+    	transform: translate(0, 0);
   	}
 
   	.item {
@@ -71,17 +88,33 @@
 		position: absolute;
 		margin-right: 10px;
     }
+    .logo{
+    	float: right;
+    	padding-right: 30px;
+    	padding-top: 0px;
+    }
 }
-
 @media screen and (max-width: 470px){
 	.header-inner{
-		font-size: 1.1em;
+		font-size: 0.9em;
+	}
+	header h2{
+		padding-top: 5px;
 	}
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 380px){
 	.header-inner{
 		padding-top: 20px;
-		font-size: 0.9em;
+		font-size: 0.7em;
+	}
+	header h2{
+		padding-top: 10px;
 	}	
+	.logo{
+		height: 25px;
+		width: 35px;
+	}
+@media screen and (max-width: 350px){
 
+}
 }

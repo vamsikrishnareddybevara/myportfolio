@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -11,11 +12,16 @@ body, html {
   scroll-behavior: smooth;
 }
 
-h1 , h3{
+h1, 
+h3{
   margin: 0; 
 }
 
-header, nav, footer, section, div {
+header,
+nav,
+footer,
+section,
+div {
   box-sizing: border-box;
 }
 
@@ -41,8 +47,10 @@ hr{
 
 /* Header */
 .header{
+  padding: 0px;
+  margin: 0px;
   width: 100%;
-  height: 50px;
+  height: auto;
 }
 .header-inner{
   font-size: 1.4em;
@@ -50,6 +58,19 @@ hr{
   position: relative;
   z-index: 10;
   text-align: center;
+  width: 100%;
+  height: auto;
+}
+.logo{
+  height: 40px;
+  width: 50px;
+  float: left;
+  padding: 15px;
+}
+
+h2{
+  padding: 0px;
+  margin: 0px;
 }
 
 
@@ -72,7 +93,6 @@ hr{
   width: 100%;
   text-align: center; 
   position: relative;
-  z-index: 1;
   padding-left: 20px;
 }
 
@@ -208,7 +228,7 @@ div.desc {
 /* GET IN TOUCH  Section*/
 #get-in-touch{
   width: 100%;
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: 'Montserrat', sans-serif; 
   margin-left: auto;
   margin-right: auto;
