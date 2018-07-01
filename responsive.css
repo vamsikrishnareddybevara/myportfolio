@@ -53,8 +53,8 @@
     	border-radius: 5px;
  	}
     .nav.open {
-    	-webkit-transform: translate(0, 0);
-    	transform: translate(0, 0);
+    	-webkit-transform: translate(0, 10px);
+    	transform: translate(0, 10px);
   	}
 
   	.item {
