@@ -105,16 +105,16 @@
 @media screen and (max-width: 380px){
 	.header-inner{
 		padding-top: 20px;
-		font-size: 0.7em;
+		font-size: 0.8em;
 	}
 	header h2{
 		padding-top: 10px;
 	}	
 	.logo{
-		height: 25px;
-		width: 35px;
+		height: 30px;
+		width: 40px;
 	}
-@media screen and (max-width: 350px){
-
-}
+	#get-in-touch{
+		font-size: 1em;
+	}
 }
