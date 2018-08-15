@@ -154,6 +154,12 @@ nav a{
   font-family: 'Montserrat', sans-serif;
   text-shadow: #FFF 0 0 5px;
 }
+.about-me a {
+  color: #89e5ff;
+}
+.about-me a:hover {
+  color: #82ff23;
+}
 
 .about-me{
   padding-top: 50px; 
