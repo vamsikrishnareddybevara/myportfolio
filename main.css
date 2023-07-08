@@ -86,6 +86,8 @@ h2{
   position: fixed; 
   z-index: -1;
   background-image: radial-gradient(circle, #072b5b, #05234e, #031a41, #011235, #000529); 
+
+  /* background-image: radial-gradient(circle, #051933, #020c19, #010710, #020c1f, #080a19);  */
 } 
 
 /* NAV BAR*/
@@ -128,13 +130,9 @@ nav a{
 }
 
 .pic{
-  height:180px;
-  width: 240px;
-  transform:          rotate(270deg);
-  -ms-transform:      rotate(270deg);
-  -moz-transform:     rotate(270deg);
-  -webkit-transform:  rotate(270deg);
-  -o-transform:       rotate(270deg);
+  height:300px;
+  width: 200px;
+
   border-radius: 12px;
   margin-bottom: 50px;
   margin-top: 30px;
@@ -148,11 +146,11 @@ nav a{
   padding-top: 80px;
   position: relative;
   display: inline-block;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 50px;
   font-size: 1.1em;
   font-family: 'Montserrat', sans-serif;
-  text-shadow: #FFF 0 0 5px;
+  /* text-shadow: #FFF 0 0 5px; */
 }
 .about-me a {
   color: #89e5ff;
@@ -188,14 +186,14 @@ nav a{
 }
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: space-around;
   margin-bottom: 30px;
   
 }
 
-.flex-container>div {
+.flex-container> div {
   text-align: center;  
   font-size: 1.3em;
   margin-bottom: 50px;
@@ -207,7 +205,7 @@ div.gallery {
     width: 200px;
     height: 300px;
     border-radius: 5px;
-    text-shadow: #FFF 0 0 5px;
+    /* text-shadow: #FFF 0 0 5px; */
     font-family: 'Montserrat', sans-serif;
     -webkit-box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 55px -19px rgba(0,0,0,0.75);
@@ -288,7 +286,7 @@ div.desc {
   transform: translateX(10px) rotate(360deg);
 }
 
-.social .link.google-plus {
+.social .link.github {
   background-color: transparent;
   color: white;
   text-shadow: #FFF 0 0 3px;
@@ -300,7 +298,7 @@ div.desc {
   text-shadow: #FFF 0 0 3px;
 }
 
-.social .link.facebook {
+.social .link.linkedin {
   background-color: transparent;
   color: white;
   text-shadow: #FFF 0 0 3px;
@@ -325,3 +323,7 @@ div.desc {
 
 
 
+.portfolio-title {
+
+  padding-top: 20px;
+}

@@ -7,6 +7,11 @@
 }
 
 @media screen and (max-width: 785px){
+	.flex-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-around;		
+	  }
 	.item{
 		font-size: 1em;
 		margin-right: 40px;
@@ -21,7 +26,8 @@
 		font-size: 30px;
 	}
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 680px){
+	
 	.item{
 		font-size: 0.9em;
 	}
@@ -35,6 +41,11 @@
 	}
 }
 @media screen and (max-width: 595px){
+	.flex-container {
+		display: grid;
+		grid-template-columns: auto;
+		justify-content: space-around;		
+	  }
 	#about-me{
 		font-size: 15px;
 		padding-left: 20px;
@@ -83,6 +94,7 @@
     	height: 40px;
     	fill: #E0E0E0;
     	float: right;
+		margin-top: 13px;
     }
 	.svg{
 		position: absolute;
@@ -95,6 +107,7 @@
     }
 }
 @media screen and (max-width: 470px){
+
 	.header-inner{
 		font-size: 0.9em;
 	}
@@ -103,6 +116,9 @@
 	}
 }
 @media screen and (max-width: 380px){
+
+	
+	  
 	.header-inner{
 		padding-top: 20px;
 		font-size: 0.8em;
